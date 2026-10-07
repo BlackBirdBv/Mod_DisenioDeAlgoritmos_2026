@@ -7,12 +7,12 @@ int main(void){
 
   //ENTRADA: Lee el numero  -> numero = 13
 
-  prinf("Numero decimal (0  a 15)");
+  printf("Numero decimal (0  a 15)");
   scanf("%d", &numero);
 
   //VALIDACION: con 4 bits solo se representan los valores de 0 a 15 
   if (numero < 0 || numero >15) {
-    prinf("Fuera de rango: use un  numero de 0 a 15\n");
+    printf("Fuera de rango: use un  numero de 0 a 15\n");
     return 1;
   }
 

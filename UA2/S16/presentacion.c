@@ -4,6 +4,7 @@
 #include <stdio.h> //libreria Incluye la biblioteca de E/S.
 
 int main(void){ //Inicia la funcion principal 
+  
   printf("=========================================================\n");
   printf(" Intituto Nacional de Aprendizaje\n");
   printf(" Modulo: CSTI12010 Disenio de algoritmos\n");

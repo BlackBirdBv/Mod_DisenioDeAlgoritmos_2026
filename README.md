@@ -106,14 +106,14 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 <details open>
 <summary><b>Unidad 2 · Programación estructurada en C</b> (sesiones 14 a 24)</summary>
 
-| Sesión  | Tema                                         | Qué aprendí |                  Evidencia                   | Estado |
-| :-----: | :------------------------------------------- | :---------- | :------------------------------------------: | :----: |
-|   S14   | Sistemas numéricos                           | Que es, para que existe apliciones  y conversiones  |               [ver](UA2/S14/)                |   ⬜   |
-|   S15   | Control de versiones con git y GitHub        |             |               [ver](UA2/S15/)                |   ⬜   |
-|   S16   | Formato de un programa en C y compilación    |             |               [ver](UA2/S16/)                |   ⬜   |
-|   S17   | Variables, constantes y entrada/salida       |             |               [ver](UA2/S17/)                |   ⬜   |
-|   S18   | Operadores, casting e if … else              |             |               [ver](UA2/S18/)                |   ⬜   |
-|   S19   | Ciclos y switch                              |             |               [ver](UA2/S19/)                |   ⬜   |
+| Sesión  | Tema                                         |                        Qué aprendí                        |                  Evidencia                   | Estado |
+| :-----: | :------------------------------------------- | :-------------------------------------------------------- | :------------------------------------------: | :----: |
+|   S14   | Sistemas numéricos                           | Que es, para que existe apliciones  y conversiones        | [ver](UA2/recursos/S14.png)                  |   ✅   |
+|   S15   | Control de versiones con git y GitHub        | Se inicializó el repositorio en github y las carpetas     | [ver](UA2/recursos/S15.png)                  |   ✅   |
+|   S16   | Formato de un programa en C y compilación    | Estructura basica de C, compilacion y funcionamiento      | [ver](UA2/recursos/S16.png)                  |   ✅   |
+|   S17   | Variables, constantes y entrada/salida       | Reglas para la declarar, espacios en memoria y constantes | [ver](UA2/recursos/S17.png)                  |   ✅   | 
+|   S18   | Operadores, casting e if … else              | Uso de condicionales, estructura y alternativas           | [ver](UA2/recursos/S18.png)                  |   ✅   |
+|   S19   | Ciclos y switch                              | Uso de ciclos, estructuras y condiciones de uso           | [ver](UA2/recursos/S19.png)                  |   ✅   |
 |   S20   | Arreglos, matrices y cadenas                 |             |               [ver](UA2/S20/)                |   ⬜   |
 |   S21   | Funciones                                    |             |               [ver](UA2/S21/)                |   ⬜   |
 |   S22   | Paso de parámetros por valor y por dirección |             |               [ver](UA2/S22/)                |   ⬜   |

@@ -3,6 +3,7 @@
 //Cualquier otro numero es voto nulo. Al final se muestra una barra de * con los votos del candidato
 
 #include <stdio.h> //libreria prinf y scanf
+#include <stdlib.h> 
 #define FIN 0 //se define e inicializan constantes
 
 int main(void){
@@ -23,8 +24,8 @@ int main(void){
   printf("1. Ana     2. Luis    3. Sofia    (0 cierra)\n\n");
   
   //LECTURAS PREVIAS
-  // printf("voto: ");
-  // scanf("%d", &voto);
+  printf("voto: ");
+  scanf("%d", &voto);
   
   //WHILE con centinela. Se repite mientras el voto no sea 0
   while (voto != FIN) {
@@ -86,7 +87,7 @@ int main(void){
 
   }
   
-
+  system ("pause");
   return 0;
 
 }

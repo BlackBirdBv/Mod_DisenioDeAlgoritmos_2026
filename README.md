@@ -114,7 +114,7 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 |   S17   | Variables, constantes y entrada/salida       | Reglas para la declarar, espacios en memoria y constantes | [ver](UA2/recursos/S17.png)                  |   ✅   | 
 |   S18   | Operadores, casting e if … else              | Uso de condicionales, estructura y alternativas           | [ver](UA2/recursos/S18.png)                  |   ✅   |
 |   S19   | Ciclos y switch                              | Uso de ciclos, estructuras y condiciones de uso           | [ver](UA2/recursos/S19.png)                  |   ✅   |
-|   S20   | Arreglos, matrices y cadenas                 |             |               [ver](UA2/S20/)                |   ⬜   |
+|   S20   | Arreglos, matrices y cadenas                 | Estructura, Reglas, Condiciones de uso                    | [ver](UA2/recursos/S20.png)                  |   ✅   |
 |   S21   | Funciones                                    |             |               [ver](UA2/S21/)                |   ⬜   |
 |   S22   | Paso de parámetros por valor y por dirección |             |               [ver](UA2/S22/)                |   ⬜   |
 | S23–S24 | **Actividad de comprobación 2**              |             | [ver](actividades/A2_Mi_primera_aplicacion/) |   ⬜   |

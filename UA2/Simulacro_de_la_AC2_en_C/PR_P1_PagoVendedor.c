@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #define COMI 0.05
 #define BONO 50.00
@@ -15,7 +16,8 @@ int main(void) {
 
   //entradas de datos
   printf("Nombre del vendedor: ");
-  scanf("%19s",nombre);
+  fgets(nombre, sizeof(nombre), stdin);
+  nombre[strcspn(nombre, "\n")] = '\0';
 
   for (i = 0; i < SEMANAS; i++) {
     //Validacion de positivos
@@ -41,7 +43,7 @@ int main(void) {
   pago = comision + BONO - retencion;
 
   //Salida
-  printf("------- Pago de Carlos Vega -------\n");
+  printf("------- Pago de %s -------\n",nombre);
   //Semanas 
   for (i = 0; i < SEMANAS; i++) {
     printf("Semana %d: %20.2f\n", i+1, ventas[i]);
@@ -49,9 +51,9 @@ int main(void) {
   //Mes
   printf("Ventas del mes: %14.2f\n",sumatoria);
   //aplicaiones
-  printf("Comision (5%):   %14.2f\n",comision);
+  printf("Comision (5%%):   %14.2f\n",comision);
   printf("Bono: %24.2f\n", BONO);
-  printf("Retencion (2%): %15.2f\n",retencion);
+  printf("Retencion (2%%): %15.2f\n",retencion);
   //pago
   printf("Pago del mes: %16.2f\n",pago);
   

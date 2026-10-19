@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+//Constantes
 #define CRIT 3
 
 int main(void) {

@@ -1,6 +1,6 @@
 # AC2 · Mi primera aplicación en C
 
-**Estudiante:** (nombre completo)  
+**Estudiante:** (Kevin Moises Cardenas Blandon)  
 **Fecha:** 20/10/2026  
 **Módulo:** CSTI12010 Diseño de algoritmos · UA2
 
@@ -27,7 +27,7 @@
 ## Problema 3 · Compras (AC2_P3_Compras.c)
 
 | Datos de entrada | Proceso | Datos de salida | Limitaciones |
-|---|---|---|---|
+|------------------|---------|-----------------|--------------|
 |  |  |  |  |
 
 **Ejecución con los datos del ejemplo:**

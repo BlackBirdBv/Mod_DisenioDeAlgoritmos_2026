@@ -62,9 +62,11 @@ int main(void) {
   printf(" ------- Comprobante de pago ------- \n");
   printf("%-20s%19s\n","Empleado:",nombre);
   printf("%-20s%19.2f\n","Salario bruto:",salarioBruto);
-  printf("%-20s%16.2f\n","Descuento CAJA (9.5%%):",restCaja);
-  printf("%-20s%16.2f\n","Descuento IESS (2.5%%):",restIess);
-  printf("%-20s%17.2f\n","Impuesto renta (10%%):",restRenta);
+  printf("%-20s%17.2f\n","Descuento CAJA (9.5%):",restCaja);
+  printf("%-20s%17.2f\n","Descuento IESS (2.5%):",restIess);
+  printf("%-20s%18.2f\n","Impuesto renta (10%):",restRenta);
   printf("%-20s%19.2f\n","Salario neto: ",salarioNeto);
 
+  system("pause");
+  return 0;
 }

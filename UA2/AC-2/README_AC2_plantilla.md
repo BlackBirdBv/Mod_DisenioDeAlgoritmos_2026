@@ -12,13 +12,13 @@
 
 **Ejecución con los datos del ejemplo:**
 
-![Ejecución](captura_p.png)
+![Ejecución](/UA2/AC-2/capturas/AC1_P1.png)
 
 ## Problema 2 · Calificaciones (AC2_P2_Calificaciones.c)
 
-| Datos de entrada | Proceso | Datos de salida | Limitaciones |
-|---|---|---|---|
-|  |  |  |  |
+| Datos de entrada        | Proceso | Datos de salida | Limitaciones |
+|-------------------------|---------|-----------------|--------------|
+| nombre, calificaciones  | recibe el nombre y las notas(valida que esten en rango), se calcula el promedio se guarda la calificacion mas alta, se le asigna una condicion dependiendo del promedio y se muestra un resumen de la situacion del estudiante | pormedio, condicion, tres calificaciones ingresadas, nota mayor | las notas deben de estar en un rango de 0 a 100 |
 
 **Ejecución con los datos del ejemplo:**
 

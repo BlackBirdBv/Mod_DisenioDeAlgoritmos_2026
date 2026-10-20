@@ -19,16 +19,22 @@
 
 int main(void) {
   //Variables 
-  char nombre [20];
-  double salarioBruto, salarioNeto, restCaja, restIess, restRenta;
+  char nombre [20];     //guarda el nombre
+  double salarioBruto;  //guarda salario en bruto
+  double salarioNeto;   //guarda salario neto
+  double restCaja;      //guarda lo que restara la caja
+  double restIess;      //guarda lo que restara el IESS
+  double restRenta;     //guarda lo que restara la renta si aplica
 
   //Entadaas de datos 
   printf(" === Calculo de nomina === \n");
   //valida que el campo no este vacio
   do {
+    //entrada nombre 
     printf("Nombre del empleado: ");
     fgets(nombre, sizeof(nombre), stdin);
     nombre[strcspn(nombre, "\n")] = '\0';
+    //mensaje de error
     if (nombre[0] == '\0') {
       printf("Por favor escriba el nombre del empleado\n");
     }

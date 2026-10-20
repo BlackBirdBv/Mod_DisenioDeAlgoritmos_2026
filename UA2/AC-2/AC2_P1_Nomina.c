@@ -29,6 +29,9 @@ int main(void) {
     printf("Nombre del empleado: ");
     fgets(nombre, sizeof(nombre), stdin);
     nombre[strcspn(nombre, "\n")] = '\0';
+    if (nombre[0] == '\0') {
+      printf("Por favor escriba el nombre del empleado\n");
+    }
   } while (nombre[0] == '\0');
   
   //Validacion para que salario sea mayor que 0 

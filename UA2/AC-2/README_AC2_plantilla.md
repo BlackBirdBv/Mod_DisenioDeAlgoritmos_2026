@@ -28,7 +28,7 @@
 
 | Datos de entrada | Proceso | Datos de salida | Limitaciones |
 |------------------|---------|-----------------|--------------|
-|  |  |  |  |
+| Nombre cliente, producto, precio y camtidad, Opcion de continuar  | recibe el nombre del cliente, luego recibe el producto con su nombre su precio individual y su cantidad hasta un maximo de 10 o hasta que ya no quiera agragar mas, se validad que cantidad y prescio sean positivos, se realizan calculos como subtotal(precio x cantidad), descuento e imuestos para al final saber cuanto debe al final se muestra un resumen de compra | Factura con un resumen de lo que pidio el cliente, cantidades, precios, descuentos y total a pagar | el nombre no puede estar vacio, precio y cantidad no puede ser 0 o menor, el nombre del producto no puede quedar vacio, solo un maximo de 10 productos  |
 
 **Ejecución con los datos del ejemplo:**
 

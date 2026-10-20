@@ -12,7 +12,7 @@
 
 **Ejecución con los datos del ejemplo:**
 
-![Ejecución](/UA2/AC-2/capturas/AC1_P1.png)
+![Ejecución](/UA2/AC-2/capturas/AC2_P1.png)
 
 ## Problema 2 · Calificaciones (AC2_P2_Calificaciones.c)
 
@@ -22,7 +22,7 @@
 
 **Ejecución con los datos del ejemplo:**
 
-![Ejecución](captura_p.png)
+![Ejecución](/UA2/AC-2/capturas/AC2_P2.png)
 
 ## Problema 3 · Compras (AC2_P3_Compras.c)
 

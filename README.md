@@ -144,6 +144,32 @@ La persona facilitadora crea la etiqueta al cierre de cada actividad; el resulta
 cuando se comunica.
 
 ---
+| Preguntas de comprobación                                                                                                                     |
+| :-------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Qué diferencia hay entre el parámetro y el argumento? Use calcularIVA(double monto) y calcularIVA(precio) para explicarlo.                   |
+| Un parametro puede ser una variable o una funcion en este caso es calcularIVA(monto) y el argumento es un valor real como(3500 o 8000).       |
+|                                                                                                                                               |
+| ¿Qué hace return y qué pasa con las líneas que están después de él?                                                                           |
+| lo que hace es devolver un resultado luego de eso termina su ejecucion                                                                        |
+|                                                                                                                                               |
+| ¿Cuándo una función es void? Dé un ejemplo propio.                                                                                            |
+| void es una funcion que no devuelve ningun valor porque no calcula un resultado como tal.                                                     |
+| un ejemplo: mostrar un mensaje de bienvenida o de confirmacion                                                                                |
+|                                                                                                                                               |
+| En alcance.c, ¿por qué main muestra temporal=99 si registrar puso temporal = 10?                                                              |
+| porque temporal vale distinto en la funcion y en el main ya que se declara independientemente en ambas.                                       |
+| cuando se manda a llamar registro muestra el temporal de registro, miestras que la 3er salida muesta el temporal declarado en main.           |
+|                                                                                                                                               |
+| ¿Qué diferencia hay entre una variable local automática y una static?                                                                         |
+| la automatica es es una variable normal y se crea cada ves que se manda a llamar y desaparese al salir de la funcion,                         |
+| la estatica se crea una unica ves y conserva su valor.                                                                                        |
+|                                                                                                                                               |
+| ¿Cómo se calcula 2 elevado a 10 en C y qué biblioteca se necesita?                                                                            |
+| se utiliza la funcion pow() y su biblioteca es (math.h)                                                                                       |
+|                                                                                                                                               |
+| Del video: escriba una idea que le haya aclarado algo de la lección.                                                                          |
+| las funciones con múltiples parámetros permiten enviar varios argumentos de entrada (separados por comas).                                    |
+| como dos o más valores  para que la función los procese en conjunto y devuelva un unico resultado calculado a traves de un return             |
 
 ---
 

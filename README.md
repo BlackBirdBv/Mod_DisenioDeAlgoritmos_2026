@@ -145,6 +145,8 @@ cuando se comunica.
 
 ---
 
+---
+
 ## 🖼 Galería de ejecuciones
 
 _(Sustituir por capturas propias. Se recomienda incluir de tres a seis imágenes
@@ -207,7 +209,7 @@ _(Completar conforme avanza el módulo. Ejemplos de lo que corresponde anotar aq
 
 <div align="center">
 
-**Nombre Completo** · @usuario-de-github
+**Kevin Cardenas** · @usuario-de-github
 
 Portafolio elaborado durante el módulo CSTI12010 · Instituto Nacional de Aprendizaje · 2026
 

@@ -4,10 +4,15 @@
 
 int buscar(const char nombres[][15], int n, const char buscado[]) {
     int i;
-    for (i = 0; i <= n; i++)
-        if (strcmp(nombres[i],buscado)){
+    /*  error: El bucle utiliza la condición (i <= n).
+        porque: los arreglos en se indexan desde 0 hasta n, al usar (<=) provocaba que salga fuera de los limites del arreglo.
+        correccion: Cambiar la condicion a (i < n) para recorrer estrictamente las posiciones validas.*/
+    for (i = 0; i < n; i++)
+    /*  error: Se intenta comparar las cadenas usando (==)
+        porque: comparar (==) en arreglos de caracteres compara direcciones de memoria y no el texto
+        correccion: Utilizar la funcion strcmp para comparar el contenido de las cadenas*/
+        if (strcmp(nombres[i], buscado) == 0)
             return i;
-        }
     return -1;
 }
 

@@ -45,21 +45,21 @@ int main(void) {
     printf("1. Incluir 2. Consultar 3. Registrar viaje 4. Dar de baja\n");
     printf("5. Buscar 0. Salir\n");
 
-  //Leer la opcion
-  opcion = leerEntero("Opcion", 0, 5); // no aceptar opciones inexistentes
-  if (opcion >= 3) {
+    //Leer la opcion
+    opcion = leerEntero("Opcion", 0, 5); // no aceptar opciones inexistentes
+    if (opcion >= 3) {
     codigo = leerEntero("Codigo", COD_MIN, COD_MAX);
     pos = buscarCodigo(cod, activo, n, codigo); // busca el pase activo
     //revisa si existe
-    if (pos == -1) {
-      //aviso
-      //>>> Observacion 1: decia "No esxiste" (error de escritura).
-      printf("No existe un pase activo con el codigo %d\n", codigo);
-      //para continuar
-      continue;
+      if (pos == -1) {
+        //aviso
+        //>>> Observacion 1: decia "No esxiste" (error de escritura).
+        printf("No existe un pase activo con el codigo %d\n", codigo);
+        //para continuar
+        continue;
+      }
     }
-  }
-  switch (opcion) {
+    switch (opcion) {
       case 1:
       if (n == MAX_PASES) {
         printf("No hay espacio para mas pases\n");
@@ -75,42 +75,42 @@ int main(void) {
         printf("El codigo %d ya existe\n", codigo);
         break;  //sale para no incluir al repetido
       }
-    //pide nombre
-    printf("Nombre (una palabra): ");
-    //leer nombre
-    scanf("%19s", nombre);
-    //leer los viajes
-    cantidad = leerEntero("Viajes", 1, VIAJES_MAX); // DE 1 A 40 MAX
-    //guardar el pase qu viene por direccion
-    incluir(cod, nom, viajes, activo, &n, codigo, nombre, cantidad);
-    //conformar pase incluido
-    printf("Pase incluido (%d de %d)\n", n, MAX_PASES);
-    break;
-
-    case 2: 
-      consultar(cod, nom, viajes, activo, n);
-      break;
-    case 3:
-    //inetnta regstrar viaje
-    if (usarViaje(&viajes[pos]))
-    printf("Viaje registrado. A %s le quedan %d\n", nom[pos], viajes[pos]);
-    //no quedan vieajes
-    else 
-      printf("%s no tiene viajes disponibles\n", nom[pos]);
-    break;
-
-    case 4: 
-      darDeBaja(&activo[pos]);
-      printf("Pase de %s dado de baja\n", nom[pos]);
+      //pide nombre
+      printf("Nombre (una palabra): ");
+      //leer nombre
+      scanf("%19s", nombre);
+      //leer los viajes
+      cantidad = leerEntero("Viajes", 1, VIAJES_MAX); // DE 1 A 40 MAX
+      //guardar el pase qu viene por direccion
+      incluir(cod, nom, viajes, activo, &n, codigo, nombre, cantidad);
+      //conformar pase incluido
+      printf("Pase incluido (%d de %d)\n", n, MAX_PASES);
       break;
 
-    case 5: 
-      //buscar un pase
-      printf("%d %s: %d viajes\n", cod[pos], nom[pos], viajes[pos]);
+      case 2: 
+        consultar(cod, nom, viajes, activo, n);
+        break;
+      case 3:
+      //inetnta regstrar viaje
+      if (usarViaje(&viajes[pos]))
+      printf("Viaje registrado. A %s le quedan %d\n", nom[pos], viajes[pos]);
+      //no quedan vieajes
+      else 
+        printf("%s no tiene viajes disponibles\n", nom[pos]);
       break;
 
-    default:
-      printf("Hasta luego\n");
+      case 4: 
+        darDeBaja(&activo[pos]);
+        printf("Pase de %s dado de baja\n", nom[pos]);
+        break;
+
+      case 5: 
+        //buscar un pase
+        printf("%d %s: %d viajes\n", cod[pos], nom[pos], viajes[pos]);
+        break;
+
+      default:
+        printf("Hasta luego\n");
     }
 
   } while (opcion !=0);

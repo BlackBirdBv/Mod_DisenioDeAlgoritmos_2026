@@ -2,7 +2,7 @@
 
 # 📘 Portafolio de Evidencias
 
-### Nombre Completo de la Persona Estudiante
+### Kevin Cardenas Blandon
 
 **CSTI12010 · Diseño de algoritmos** · Instituto Nacional de Aprendizaje
 
@@ -115,9 +115,9 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 |   S18   | Operadores, casting e if … else              | Uso de condicionales, estructura y alternativas               | [ver](UA2/recursos/S18.png)          |   ✅   |
 |   S19   | Ciclos y switch                              | Uso de ciclos, estructuras y condiciones de uso               | [ver](UA2/recursos/S19.png)          |   ✅   |
 |   S20   | Arreglos, matrices y cadenas                 | Estructura, Reglas, Condiciones de uso de arreglos y matrices | [ver](UA2/recursos/S20.png)          |   ✅   |
-|   S21   | Funciones                                    |             |               [ver](UA2/S21/)                |   ⬜   |
-|   S22   | Paso de parámetros por valor y por dirección |             |               [ver](UA2/S22/)                |   ⬜   |
-| S23–S24 | **Actividad de comprobación 2**              |             | [ver](actividades/A2_Mi_primera_aplicacion/) |   ⬜   |
+|   S21   | Funciones                                    | reglas de uso, estructutras y sintaxis                        | [ver](UA2/recursos/S21.png)          |   ✅   |
+|   S22   | Paso de parámetros por valor y por dirección | punteros, direcciones de memoria y manipulacion de datos      | [ver](UA2/recursos/S22.png)          |   ✅   |
+| S23–S24 | **Actividad de comprobación 2**              |                                                               | [ver](UA2/AC-2/capturas/)            |   ✅   |
 
 </details>
 
